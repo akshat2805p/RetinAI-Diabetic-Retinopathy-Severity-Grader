@@ -1,0 +1,44 @@
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# ── Virtual environment ──────────────────────────────────────────────────────
+venv/
+env/
+.venv/
+.env
+
+# ── IDE ───────────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ── Jupyter ───────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+
+# ── Dataset (large — download separately) ────────────────────────────────────
+data/
+*.zip
+
+# ── Model checkpoints (large — upload separately) ────────────────────────────
+models/*.pth
+models/*.pt
+models/*.onnx
+
+# ── OS files ──────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Logs ──────────────────────────────────────────────────────────────────────
+*.log
+wandb/
+mlruns/
